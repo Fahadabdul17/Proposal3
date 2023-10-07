@@ -20,3 +20,22 @@ html,body {
     line-height: 1.5;
   }
 
+
+.social-media .button:not(:last-child) {
+    margin-right: 10px; /* Sesuaikan margin sesuai keinginan Anda */
+}
+
+.card .card-image .image.is-4by3 {
+    display: block;
+    margin: 0 auto; /* Ini akan memusatkan gambar secara horizontal */
+    max-width: 220px;
+}
+
+image is-pulled-left is-6by4 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
