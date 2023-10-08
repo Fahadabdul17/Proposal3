@@ -11,18 +11,17 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <!-- Bulma Version 0.9.x-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
 <body>
     <section class="hero is-info is-fullheight">
-
         <div class="hero-head">
             <nav class="navbar" role="navigation" aria-label="main navigation">
                 <div class="container">
                     <div class="navbar-brand">
                         <a class="navbar-item" href="https://www.ulbi.ac.id/">
-                            <img src="./img/logo ulbi.png" alt="Logo Ulbi" id="logo-ulbi" style="margin-bottom: 5px" />
+                            <img src="../img/logo ulbi.png" alt="Logo Ulbi" id="logo-ulbi" style="margin-bottom: 5px" />
                         </a>
                         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
                             <span aria-hidden="true"></span>
@@ -49,31 +48,46 @@
                 </div>
             </nav>
         </div>
-        
-        
-        
-        <div class="hero-body">
+
+        <section class="section">
             <div class="container">
-                <div class="columns is-vcentered">
-                    <div class="column is-6">
-                        <figure class="image is-pulled-up is-3by2">
-                            <img src="./img/fahad&ryaas.jpg" alt="foto" style="max-width: 75%;">
-                        </figure>
+                <div class="mb-6 pb-3 columns is-multiline">
+                    <div class="column is-12 is-6-desktop mx-auto has-text-centered">
+                        <h2 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold">Proposal</h2>
+                        <p class="subtitle has-text-white mb-1">Anda sedang mengunjungi halaman Proyek 3 dari Fahad Abdul Aziz dan Ryaas Ishlah Ramadhan</p>
                     </div>
-                    <div class="column is-6">
-                        <h1 class="title is-3 has-text-centered">
-                            Selamat Datang
-                        </h1>
-                        <h2 class="subtitle is-6 has-text-centered">
-                            Ini adalah halaman utama dari proposal proyek 3 Fahad Dan Ryaas.
-                        </h2>
-                    </div>
-                    
                 </div>
             </div>
-            </div       
-            
-            <footer class="footer">
+        </section>
+
+        <section class="section" style="background-color: transparent;">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-8 is-offset-2">
+                        <figure class="image ">
+                            <img src="../img/logo ulbi.png" alt="">
+                        </figure>
+                    </div>
+                </div>
+
+                <section class="section" style="background-color: transparent;">
+                    <div class="columns">
+                        <div class="column is-8 is-offset-2">
+                            <div class="content is-medium">
+                                <h2 class="subtitle is-4" id="current-date"></h2>
+                                <h1 class="title" id="judul-proposal"></span>JUDUL</h1>
+                                <p id="isi-proposal">ISI</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                
+
+                <div class="is-divider"></div>
+        
+
+                    <footer class="footer" style="background-color: transparent;">
                 <div class="container">
                   <div class="content has-text-centered">
                     <p>
@@ -82,10 +96,11 @@
                   </div>
                 </div>
               </footer>
-        </section>
-    
-    <script async type="text/javascript" src="./js/bulma.js"></script>
-    <script type="module" src="./js/script.js"></script>
+
+    </section>
+    <script type="module" src="../js/proposal.js"></script>
+    <script type="module" src="../js/bulma.js"></script>
+
 </body>
 
 </html>
